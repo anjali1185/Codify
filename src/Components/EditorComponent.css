@@ -1,0 +1,8 @@
+.CodeMirror{ 
+    min-height: calc(100vh - 20px); 
+    font-size: 15px; 
+    line-height: 1.6; 
+    padding-top: 20px; 
+    font-family: monospace !important; 
+    letter-spacing: 1px; 
+}

@@ -1,0 +1,43 @@
+.mainWrap{ 
+    display: grid; 
+    grid-template-columns: 230px 1fr; 
+    height: 100vh; 
+} 
+.sideBar{ 
+    background-color: #1c1e29; 
+    padding: 16px; 
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+} 
+.innerSideBar{ 
+    flex: 1; 
+} 
+.clientsList{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+} 
+.logoImg{ 
+    height: 1.8rem; 
+    margin: 1rem 0rem; 
+} 
+.connected{ 
+    margin: 0.5rem 0rem 1rem 0rem; 
+    display: inline-block; 
+    font-weight: bold; 
+} 
+.userName{ 
+    margin: 0rem 0.5rem; 
+} 
+.copyBtn{ 
+    margin: 0.8rem 0rem; 
+    font-weight: bold; 
+} 
+.leaveBtn{ 
+    background-color: #4aed88; 
+    font-weight: bold; 
+} 
+.leaveBtn:hover{ 
+    background-color: #58ba7c; 
+}
